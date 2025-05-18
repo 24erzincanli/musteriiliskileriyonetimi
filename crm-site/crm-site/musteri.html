@@ -1,0 +1,40 @@
+<!-- crm-site/musteri.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Müşteri Yönetimi</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Müşteri Ekle</h2>
+    <form id="musteriForm">
+      <input type="text" id="adSoyad" placeholder="Ad Soyad" required>
+      <input type="text" id="telefon" placeholder="Telefon" required>
+      <input type="email" id="email" placeholder="E-Posta" required>
+      <input type="text" id="adres" placeholder="Adres" required>
+      <button type="submit" class="btn">Ekle</button>
+    </form>
+
+    <h3>Kayıtlı Müşteriler</h3>
+    <table id="musteriTablosu">
+      <thead>
+        <tr>
+          <th>Ad Soyad</th>
+          <th>Telefon</th>
+          <th>E-Posta</th>
+          <th>Adres</th>
+          <th>İşlem</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <a href="index.html" class="btn" style="margin-top: 20px; display: inline-block;">Ana Sayfa</a>
+  </div>
+
+  <script src="js/musteri.js"></script>
+</body>
+</html>

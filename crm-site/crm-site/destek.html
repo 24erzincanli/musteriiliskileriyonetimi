@@ -1,0 +1,38 @@
+<!-- crm-site/destek.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destek Talepleri</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Destek Talebi Oluştur</h2>
+    <form id="destekForm">
+      <input type="email" id="email" placeholder="Müşteri E-Posta" required>
+      <textarea id="detay" placeholder="Destek Talebi Detayı" rows="4" required></textarea>
+      <input type="date" id="tarih" required>
+      <button type="submit" class="btn">Gönder</button>
+    </form>
+
+    <h3>Destek Talepleri</h3>
+    <table id="destekTablosu">
+      <thead>
+        <tr>
+          <th>Müşteri</th>
+          <th>Detay</th>
+          <th>Tarih</th>
+          <th>İşlem</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <a href="index.html" class="btn" style="margin-top: 20px; display: inline-block;">Ana Sayfa</a>
+  </div>
+
+  <script src="js/destek.js"></script>
+</body>
+</html>

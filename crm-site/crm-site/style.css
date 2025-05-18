@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+  background: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #eee;
+}
